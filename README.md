@@ -73,3 +73,26 @@ POST /students
 - Hibernate
 - H2 Database
 - REST API
+
+
+
+## Spring Security 6 with JWT Authentication
+
+This project demonstrates authentication and authorization using
+Spring Security 6 and JWT tokens.
+
+### Security Features
+
+- Spring Security 6
+- JWT-based authentication
+- Protected REST API endpoints
+- Public login endpoint
+- Authentication required for protected resources
+
+### Authentication Flow
+
+1. User submits login credentials.
+2. Server validates the credentials.
+3. A JWT token is generated.
+4. Client sends the JWT token with subsequent requests.
+5. Spring Security validates the token before allowing access.
