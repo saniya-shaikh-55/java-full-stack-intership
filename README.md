@@ -44,3 +44,32 @@ The project is divided into the following layers:
 ## Conclusion
 
 This architecture provides clear separation between different responsibilities and supports scalable Java Full Stack application development.
+
+
+
+## Spring Boot REST API & Hibernate/JPA
+
+This project demonstrates a basic Spring Boot REST API with Hibernate/JPA persistence.
+
+### Features
+- Create student records using POST API
+- Retrieve student records using GET API
+- Hibernate/JPA for database persistence
+- H2 database for development
+- RESTful API architecture
+
+### API Endpoints
+
+GET /students
+- Retrieves all students.
+
+POST /students
+- Adds a new student.
+
+### Technologies
+- Java
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- H2 Database
+- REST API
