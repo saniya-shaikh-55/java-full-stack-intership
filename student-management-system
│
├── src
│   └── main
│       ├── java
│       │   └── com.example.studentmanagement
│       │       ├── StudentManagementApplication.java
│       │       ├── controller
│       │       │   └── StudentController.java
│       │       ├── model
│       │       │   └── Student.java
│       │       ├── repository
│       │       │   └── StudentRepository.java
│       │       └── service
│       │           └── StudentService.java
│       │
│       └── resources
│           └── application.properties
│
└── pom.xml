@@ -1,0 +1,20 @@
+student-management-system
+│
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.example.studentmanagement
+│       │       ├── StudentManagementApplication.java
+│       │       ├── controller
+│       │       │   └── StudentController.java
+│       │       ├── model
+│       │       │   └── Student.java
+│       │       ├── repository
+│       │       │   └── StudentRepository.java
+│       │       └── service
+│       │           └── StudentService.java
+│       │
+│       └── resources
+│           └── application.properties
+│
+└── pom.xml
